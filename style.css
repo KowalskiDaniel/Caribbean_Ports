@@ -1,0 +1,130 @@
+body {
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+
+/* The sidepanel menu */
+
+.sidepanel {
+    height: 400px;
+    /* Specify a height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #489FB5;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 60px;
+    /* Place content 60px from the top */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidepanel */
+}
+
+
+/* The sidepanel links */
+
+.sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #F1DEDE;
+    display: block;
+    transition: 0.3s;
+}
+
+
+/* When you mouse over the navigation links, change their color */
+
+.sidepanel a:hover {
+    color: #f1f1f1;
+}
+
+
+/* Position and style the close button (top right corner) */
+
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+/* Style the button that is used to open the sidepanel */
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #489FB5;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #124E78;
+}
+
+h1 {
+    margin: 0;
+    color: #F1DEDE;
+    display: inline-block;
+    text-align: center;
+}
+
+a {
+    color: #F1DEDE;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #F1DEDE;
+    display: block;
+}
+
+.h1 a:active {
+    color: #F1DEDE;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.h1 a:hover {
+    color: #F1DEDE;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:link {
+    color: #F1DEDE;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #F1DEDE;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.map {
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 730px;
+    position: fix;
+}
+
+.mapbo {
+    align-items: center;
+}
