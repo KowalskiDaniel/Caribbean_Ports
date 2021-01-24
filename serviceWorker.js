@@ -1,6 +1,6 @@
 var CACHE_NAME = 'caribbean-ports';
 var urlsToCache = [
-    '/',
+    './',
     './style.css',
     './index.html',
     './ports.html',
