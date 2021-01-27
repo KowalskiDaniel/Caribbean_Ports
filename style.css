@@ -150,9 +150,8 @@ a:visited {
 
 h2 {
     color: #F1DEDE;
-    display: inline-block;
-    text-align: center;
     font-size: 13px;
+    text-align: center;
 }
 
 .grid-container {
