@@ -21,6 +21,13 @@ h3 {
     font-size: 20px;
 }
 
+h4 {
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+
 
 /* The sidepanel menu */
 

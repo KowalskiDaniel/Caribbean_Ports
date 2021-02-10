@@ -47,7 +47,7 @@
             mapboxgl.accessToken = 'pk.eyJ1Ijoia293YWxza2lkYW5pZWwiLCJhIjoiY2toeDN0Mml4MGZ6MzJybXBvdnZ0N2pwbiJ9.xANFVHfmXC6L8hVvF4j9Jw';
             var map = new mapboxgl.Map({
                 container: 'map',
-                style: 'mapbox://styles/kowalskidaniel/ckkbazr1v244217od6fdfiv88', // stylesheet location
+                style: 'mapbox://styles/kowalskidaniel/ckkyo3nsu6ce618mhad337fza', // stylesheet location
                 center: [-62.26948824252725, 16.122827315501887], // starting position [lng, lat]
                 zoom: 6 // starting zoom
             });
@@ -66,7 +66,7 @@
                         offset: [0, 0]
                     })
                     .setLngLat(feature.geometry.coordinates)
-                    .setHTML('<h3>' + feature.properties.title + '</h3><p>' + feature.properties.description + '</p>')
+                    .setHTML('<h4>' + feature.properties.title + '</h4><p>' + feature.properties.description + '</p>')
                     .addTo(map);
             });
         </script>
